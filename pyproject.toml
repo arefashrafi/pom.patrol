@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pom-patrol"
+version = "0.1.0"
+description = ""
+authors = ["Aref Ashrafi <Aref.Ashrafi@lansforsakringar.se>"]
+readme = "README.md"
+packages = [{include = "pom"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+azure-devops = "^7.1.0b4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
